@@ -1,0 +1,53 @@
+@media (max-width: 320px) {
+  .navbar {
+
+    text-align: center;
+  }
+
+  .navbar .list {
+    display: flex;
+  }
+
+  .navbar img {
+    height: 25px;
+    width: 50px;
+  }
+
+  .main h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .parent {
+    display: block;
+  }
+
+  .child-left,
+  .child-right {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .l-title,
+  .r-title {
+    font-size: 18px;
+  }
+
+  .l-title {
+    text-align: center;
+    margin-left: 250px;
+    font-size: 30px;
+  }
+
+  .r-title {
+    font-size: 22px;
+  }
+
+  .main {
+    width: 300px;
+    margin: 0 auto;
+    height: 600px;
+    background-image: url(../img/bann2\ 1.png);
+  }
+}

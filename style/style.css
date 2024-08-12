@@ -1,0 +1,67 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list {}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(../img/bann2\ 1.png);
+}
+
+.title {
+
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.parent {
+    display: flex;
+    width: 1024px;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.child-left {
+    font-size: 35px;
+    width: 490px;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.l-title {
+    width: 490px;
+    text-align: center;
+
+}
+
+.child-right {}
+
+.r-title {
+    font-size: 25px;
+    color: red;
+    font-family: monospace;
+    padding: 50px 10px;
+}

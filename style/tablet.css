@@ -1,0 +1,42 @@
+@media screen and (max-width:769px) {
+  .navbar {
+    padding-top: 100px;
+  }
+
+  .list-1 {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+  }
+
+  .list-2 {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 0;
+  }
+
+  .container {
+    max-width: 768px;
+  }
+
+  .main {
+    max-width: 768px;
+    height: 600px;
+    background-size: cover;
+  }
+
+  .parent {
+    max-width: 768px;
+  }
+
+  .l-title {
+    width: 200px;
+    font-size: 30px;
+  }
+
+  .r-title {
+    font-size: 20px;
+  }
+}
